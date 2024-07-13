@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/BioQuiz-2/static/css/main.9bd25bef.css",
-    "main.js": "/BioQuiz-2/static/js/main.11db31f2.js",
+    "main.js": "/BioQuiz-2/static/js/main.8a08ade5.js",
     "static/js/453.fc01f49c.chunk.js": "/BioQuiz-2/static/js/453.fc01f49c.chunk.js",
     "static/media/picture-light-mode.jpg": "/BioQuiz-2/static/media/picture-light-mode.2649ad0ee0f9d88e3216.jpg",
     "static/media/wave-hand.png": "/BioQuiz-2/static/media/wave-hand.48b5d63ef4759d70688a.png",
@@ -18,11 +18,11 @@
     "static/media/dev-react.webp": "/BioQuiz-2/static/media/dev-react.2a0cac33f155e4a27216.webp",
     "index.html": "/BioQuiz-2/index.html",
     "main.9bd25bef.css.map": "/BioQuiz-2/static/css/main.9bd25bef.css.map",
-    "main.11db31f2.js.map": "/BioQuiz-2/static/js/main.11db31f2.js.map",
+    "main.8a08ade5.js.map": "/BioQuiz-2/static/js/main.8a08ade5.js.map",
     "453.fc01f49c.chunk.js.map": "/BioQuiz-2/static/js/453.fc01f49c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9bd25bef.css",
-    "static/js/main.11db31f2.js"
+    "static/js/main.8a08ade5.js"
   ]
 }
