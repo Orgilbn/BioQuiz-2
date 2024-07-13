@@ -1,0 +1,30 @@
+.footer-section{
+    display: flex;
+    height: 140px;
+    /* width: 100%; */
+    align-items: center;
+    padding-left: 56px;
+    padding-right: 56px;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.common-wrap{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+@media screen and (max-width: 720px){
+    .jumper{
+        display: none !important;
+    }
+    .footer-section{
+        justify-content: center;
+    }
+}
+
+.gap{
+    display: flex;
+    align-items: center;
+    margin-right: 22px;
+}

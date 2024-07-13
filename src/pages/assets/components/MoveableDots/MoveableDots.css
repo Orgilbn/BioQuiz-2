@@ -1,0 +1,11 @@
+.DotsWrapper{
+    display: flex;
+    /* position: absolute; */
+    flex-direction: row;
+}
+.DotsOuterWrapper{
+    /* position: absolute; */
+}
+.eachColumn{
+    margin-right: 0
+}

@@ -1,0 +1,85 @@
+.arrow-outer-wrapper{
+    display: flex;
+    
+}
+.arrow-to-right{
+    padding-top:5px;
+    transition: 0.3s;
+    margin-right: 5px;
+}
+.arrow-to-right:hover{
+    margin-right: 0px;
+    padding-left: 10px;
+}
+.arrow-to-left{
+    padding-top: 5px;
+    transition: 0.5s;
+    margin-left: 5px;
+}
+.arrow-to-left:hover{
+    margin-left: 0px;
+    padding-right: 10px;
+}
+.aowl{
+    justify-content: end;
+}
+.arrow-wrapper{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+.awr{
+    align-items: end;
+}
+.awl{
+    align-items: start;
+}
+
+.bottom-line{
+    width: 80px;
+    height: 4px;
+    border-radius: 2px;
+}
+
+.side-line{
+    width: 25px;
+    height: 4px;
+    margin-bottom: 4px;
+    border-radius: 2px;
+}
+.slr{
+    transform: rotate(45deg);
+    margin-right: -3px;
+}
+.sll{
+    transform: rotate(-45deg);
+    margin-left: -3px;
+}
+
+.arrow-text{
+    display: flex;
+    position: absolute;
+    margin-top: -13px;
+}
+.atr{
+    margin-left: 4px;
+}
+.atl{
+    margin-right: 4px;
+}
+@media screen and (max-width: 720px){
+    .bottom-line{
+        width: 70px;
+        height: 3px;
+    }
+    .side-line{
+        width: 20px;
+        height: 3px;
+        margin-bottom: 3px;
+    }
+    .arrow-text{
+        margin-top: -15px;
+    }
+}

@@ -1,0 +1,114 @@
+/* colors */
+:root {
+    --primary: #82CC06;
+    --primary-dark: #78B512;
+    --secondary: #AA3E19;
+    --black: #141E46;
+    --darker-black: #0F131D;
+    --light-black: #141e4682;
+    --white: #F4F4F4;
+    --bright-white: #ffffff;
+    --pink: #D10363;
+  }
+.primary-bk{
+    background-color: var(--primary);
+}
+.primary-txt{
+    color: var(--primary)
+}
+.primary-dark-bk{
+    background-color: var(--primary-dark);
+}
+
+.secondary-bk{
+    background-color: var(--secondary);
+}
+.secondary-txt{
+    color: var(--secondary)
+}
+
+.black-bk{
+    background-color: var(--black);
+}
+.black-txt{
+    color: var(--black);
+}
+.darker-black{
+    background-color: var(--darker-black)
+}
+.pink-bk{
+    background-color: var(--pink);
+}
+.blured-white-txt{
+    color: #8D6669
+}
+
+
+
+a:link, a:visited {
+    text-decoration: none;
+  }
+  a:visited {
+    color: var(--black);
+  }
+
+.light-black-bk{
+    background-color: var(--light-black);
+}
+.light-black-txt{
+    color: var(--light-black);
+}
+
+.white-bk{
+    background-color: var(--white);
+}
+.white-txt{
+    color: var(--white)
+}
+
+.bright-white-bk{
+    background-color: var(--bright-white);
+}
+.bright-white-txt{
+    color: var(--bright-white);
+}
+
+
+/* text styles */
+
+.h1{
+    font-weight: bold;
+    font-size: 64px;
+}
+.h2{
+    font-weight: bold;
+    font-size: 48px;
+}
+.h3{
+    font-weight: bold;
+    font-size: 36px;
+}
+.h4{
+    font-weight: bold;
+    font-size: 32px;
+}
+.h5{
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.regular24{
+    font-size: 24px;
+}
+.regular16bold{
+    font-weight: bold;
+    font-size: 16px;
+}
+.regular16{
+    font-size: 16px;
+}
+
+.light16{
+    font-weight: lighter;
+    font-size: 16px;
+}

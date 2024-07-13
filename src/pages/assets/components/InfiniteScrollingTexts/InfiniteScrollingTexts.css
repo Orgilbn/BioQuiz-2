@@ -1,0 +1,43 @@
+@keyframes slideToLeft {
+    from{
+        transform: translateX(0);
+    }
+    to{
+        transform: translateX(-100%);
+    }
+}
+@keyframes slideToRight {
+    from{
+        transform: translateX(0);
+    }
+    to{
+        transform: translateX(100%);
+    }
+}
+.scrollOuterWrapper{
+    overflow: hidden;
+    white-space: nowrap;
+}
+.marginLeftV1{
+    margin-left: -500px;
+}
+.marginLeftV2{
+    margin-left: -450px;
+}
+.scrollWrapper{
+    display: inline-block;
+}
+.eachText{
+    margin: 0 5px;
+    font-size: 20px;
+    font-weight: 500;
+    transition: 1s;
+}
+.animatorL{
+    animation: 15s slideToLeft linear infinite ;
+}
+.animatorR{
+    animation: 15s slideToRight linear infinite;
+}
+
+

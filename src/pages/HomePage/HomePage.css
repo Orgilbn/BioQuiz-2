@@ -1,0 +1,268 @@
+.main-section-wrapper{
+    display: flex;
+    /* background-color: #F8E4B7; */
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 116px;
+    padding-bottom: 116px;
+    transition: 1s;
+}
+/* div, p, strong{
+    transition: 1s;
+} */
+.main-section-color{
+    background-image: linear-gradient(#F8E4B7, #F8E4B7, white);
+    transition: 2s;
+}
+.main-section-color-dark{
+    background-image: linear-gradient(1deg,#0F131D, #791A1F, #10141E);
+    transition: 2s;
+}
+
+.inner-side{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 125px;
+    height: 849px;
+}
+@media screen and (max-width: 1260px){
+    .inner-side{
+        display: none;
+    }
+}
+
+.inner-main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    z-index: 100;
+    border-radius: 30px;
+    border-style: solid;
+    border-width: 0.4px;
+    border-color: #efefef9b;
+    padding-top: 96px;
+    padding-left: 56px;
+    padding-right: 56px;
+    padding-bottom: 112px;
+    backdrop-filter: blur(8px);
+}
+.inner-main-color{
+    background-color: rgba(255, 255, 255, 0.30);
+}
+.inner-main-color-dark{
+    background-color: rgba(255, 255, 255, 0.12);
+}
+
+@media screen and (max-width: 970px){
+    .inner-right{
+        display: none;
+    }
+    .bk-photo-1{
+        display: none;
+    }
+}
+.bk-photo-1{
+    position: absolute;
+    z-index: 50;
+    width: 28%;
+    height: auto;
+    transform: rotate(-30deg);
+    right: 0;
+    bottom: -220px;
+    margin-right: 10%;
+}
+.welcome{
+    display: flex;
+    flex-direction: row;
+}
+.welcome-emoji{
+    width: 125px;
+    height: 88px;
+    margin-right: 10px;
+}
+@media screen and (max-width: 720px){
+    .welcome-emoji{
+        display: none;
+    }
+}
+.emoji{
+    width: 100%;
+    height: auto;
+    max-width: 125px; 
+    max-height: 88px; 
+    object-fit: cover;
+}
+
+.welcome-text{
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    max-width: 430px;
+}
+/* @media screen and (max-width: 1260px){
+    .welcome-text{
+        display: none;
+        
+    }
+} */
+
+.quiz-section{
+    margin-top: 116px;
+    max-width: 620px;
+}
+.quiz-section-title{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 56px;
+}
+
+
+.rota{
+    transform: rotate(-10deg);
+    margin-left: 30px;
+    height: fit-content;
+}
+
+.middle-section-wrapper{
+    display: flex;
+    justify-content: center;
+}
+
+.who-is-bioquiz-for{
+    width: 800px;
+    margin-top: 64px;
+    margin-bottom: 172px;
+}
+.text-section-margin{
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.dev-middle-section{
+    margin-top: 186px;
+    margin-bottom: 172px;
+    justify-content: center;
+}
+.dev-side-section{
+    width: auto;
+}
+.the-picture{
+    height: 500px;
+    width: 100%;
+    object-fit: cover;
+    margin-bottom: 0;
+}
+
+.dev-back{
+    position: relative;
+    z-index: 50;
+    
+}
+.flex-end{
+    justify-content: flex-end;
+}
+.dev-antdd{
+    width: 100px;
+    top: 105px;
+    transform: rotate(-13deg);
+    margin-right: 50px;
+}
+.dev-figma{
+    width: 76px;
+    top: 98px;
+    transform: rotate(10deg);
+}
+
+.dev-gtihub {
+    width: 104px;
+    top: 150px;
+    transform: rotate(-10deg);
+}
+.dev-react{
+    width: 146px;
+    top: 83px;
+    transform: rotate(-20deg);
+}
+
+.dev-fire{
+    width: 100px;
+    top: 50px;
+    /* left: ; */
+    transform: rotate(-15deg);
+}
+
+.dev-cute-arrow{
+    width: 150px;
+    top: 150px;
+    transform: rotateY(180deg)
+}
+@media screen and (max-width: 1130px){
+    /* -30% */
+    .dev-antdd{
+        width: 70px;
+    }
+    .dev-figma{
+        width: 53px;
+    }
+    .dev-gtihub{
+        width: 70px;
+    }
+    .dev-react{
+        width: 100px;
+    }
+    .dev-fire{
+        width: 70px;
+    }
+    .dev-cute-arrow{
+        width: 105px;
+    }
+    .dev-picture-margin-top{
+        padding-top: 30px;
+    }
+}
+
+@media screen and (max-width: 1000px){
+    .dev-picture-margin-top{
+        display: none;
+    }
+}
+
+.square-dots{
+    display: flex;
+    width: auto;
+    position: absolute;
+    justify-content: start;
+    left: 106px;
+    margin-top: 172px;
+    transition: 0.1s; 
+}
+.text-dots {
+    display: flex;
+    width: auto; 
+    position: absolute;
+    justify-content: end;
+    right: 75px; 
+    margin-top: 10px; 
+    transition: 0.2s; 
+    transition-timing-function: linear;
+}
+@media screen and (max-width: 970px){
+    .square-dots, .text-dots{
+        display: none;
+    }
+}
+.helloThere{
+    display: flex;
+    height: fit-content;
+}
+.left-image {
+    position: relative;
+    margin-left: 0;
+    transition:  0.5s ease; 
+}
+.right-image{
+    position: relative;
+    right: 0;
+    transition: 0.5s ease;
+}
