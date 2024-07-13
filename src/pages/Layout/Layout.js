@@ -219,9 +219,9 @@ const Layout = () => {
                 open={open}
               >
                 
-                <p><Link to="/">{isMongolia ? "Нүүр" : "Home"}</Link></p>
-                <p><Link to="/quizes">{isMongolia ? "Асуултууд": "Quizes"}</Link></p>
-                <p><Link to="/quizes">{isMongolia ? "Хуваалцах": "Share"}</Link></p>
+                <p onClick={(onClose)}><Link to="/">{isMongolia ? "Нүүр" : "Home"}</Link></p>
+                <p onClick={(onClose)}><Link to="/quizes">{isMongolia ? "Асуултууд": "Quizes"}</Link></p>
+                <p onClick={(onClose)}><Link to="/quizes">{isMongolia ? "Хуваалцах": "Share"}</Link></p>
                 <Divider/>
                 <DrawerComponent 
                   title={`${isMongolia ? "Хэл" : "Language"}`} 
