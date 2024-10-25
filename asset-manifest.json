@@ -1,28 +1,26 @@
 {
   "files": {
-    "main.css": "/BioQuiz-2/static/css/main.9bd25bef.css",
-    "main.js": "/BioQuiz-2/static/js/main.8a08ade5.js",
-    "static/js/453.fc01f49c.chunk.js": "/BioQuiz-2/static/js/453.fc01f49c.chunk.js",
-    "static/media/picture-light-mode.jpg": "/BioQuiz-2/static/media/picture-light-mode.2649ad0ee0f9d88e3216.jpg",
-    "static/media/wave-hand.png": "/BioQuiz-2/static/media/wave-hand.48b5d63ef4759d70688a.png",
-    "static/media/Group 26.png": "/BioQuiz-2/static/media/Group 26.1a98c8342dc32a46dcb6.png",
-    "static/media/Group 25.png": "/BioQuiz-2/static/media/Group 25.b7d8b7dff027e246cab9.png",
-    "static/media/group30.png": "/BioQuiz-2/static/media/group30.ae27f92b1e802c835169.png",
-    "static/media/group31.png": "/BioQuiz-2/static/media/group31.2db75fa383d785789007.png",
-    "static/media/dev-figma.png": "/BioQuiz-2/static/media/dev-figma.b08682c3a0753f59813f.png",
-    "static/media/picture-dark-mode.jpg": "/BioQuiz-2/static/media/picture-dark-mode.6b9fd722bc30d936cd80.jpg",
-    "static/media/dev-firebase.png": "/BioQuiz-2/static/media/dev-firebase.cb1506d84781df93228d.png",
-    "static/media/dev-antd.png": "/BioQuiz-2/static/media/dev-antd.12d7b2101ea745217ca1.png",
-    "static/media/bk-photo-1.png": "/BioQuiz-2/static/media/bk-photo-1.1422d0d4b7ed68c566ee.png",
-    "static/media/dev-github.png": "/BioQuiz-2/static/media/dev-github.3c672c66b8ddd781201f.png",
-    "static/media/dev-react.webp": "/BioQuiz-2/static/media/dev-react.2a0cac33f155e4a27216.webp",
-    "index.html": "/BioQuiz-2/index.html",
-    "main.9bd25bef.css.map": "/BioQuiz-2/static/css/main.9bd25bef.css.map",
-    "main.8a08ade5.js.map": "/BioQuiz-2/static/js/main.8a08ade5.js.map",
-    "453.fc01f49c.chunk.js.map": "/BioQuiz-2/static/js/453.fc01f49c.chunk.js.map"
+    "main.css": "/github.com/bioquizzzz/static/css/main.83d0a915.css",
+    "main.js": "/github.com/bioquizzzz/static/js/main.c53d1a03.js",
+    "static/media/picture-light-mode.jpg": "/github.com/bioquizzzz/static/media/picture-light-mode.2649ad0ee0f9d88e3216.jpg",
+    "static/media/wave-hand.png": "/github.com/bioquizzzz/static/media/wave-hand.48b5d63ef4759d70688a.png",
+    "static/media/Group 26.png": "/github.com/bioquizzzz/static/media/Group 26.1a98c8342dc32a46dcb6.png",
+    "static/media/Group 25.png": "/github.com/bioquizzzz/static/media/Group 25.b7d8b7dff027e246cab9.png",
+    "static/media/group30.png": "/github.com/bioquizzzz/static/media/group30.ae27f92b1e802c835169.png",
+    "static/media/group31.png": "/github.com/bioquizzzz/static/media/group31.2db75fa383d785789007.png",
+    "static/media/dev-figma.png": "/github.com/bioquizzzz/static/media/dev-figma.b08682c3a0753f59813f.png",
+    "static/media/picture-dark-mode.jpg": "/github.com/bioquizzzz/static/media/picture-dark-mode.6b9fd722bc30d936cd80.jpg",
+    "static/media/dev-firebase.png": "/github.com/bioquizzzz/static/media/dev-firebase.cb1506d84781df93228d.png",
+    "static/media/dev-antd.png": "/github.com/bioquizzzz/static/media/dev-antd.12d7b2101ea745217ca1.png",
+    "static/media/bk-photo-1.png": "/github.com/bioquizzzz/static/media/bk-photo-1.1422d0d4b7ed68c566ee.png",
+    "static/media/dev-github.png": "/github.com/bioquizzzz/static/media/dev-github.3c672c66b8ddd781201f.png",
+    "static/media/dev-react.webp": "/github.com/bioquizzzz/static/media/dev-react.2a0cac33f155e4a27216.webp",
+    "index.html": "/github.com/bioquizzzz/index.html",
+    "main.83d0a915.css.map": "/github.com/bioquizzzz/static/css/main.83d0a915.css.map",
+    "main.c53d1a03.js.map": "/github.com/bioquizzzz/static/js/main.c53d1a03.js.map"
   },
   "entrypoints": [
-    "static/css/main.9bd25bef.css",
-    "static/js/main.8a08ade5.js"
+    "static/css/main.83d0a915.css",
+    "static/js/main.c53d1a03.js"
   ]
 }
